@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head><title>Mike's Website - Homepage</title>
-<style type="text/css">
-body {
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	
+	<title>Mike&#39;s Website - Homepage</title>
+	<style type="text/css">body {
 	margin: 0;
 	padding: 0;
 }
@@ -10,7 +11,7 @@ header {
 
 	height: 500px;
 	border: 1px solid;
-	background-image: url('http://www.desktopwallpaperhd.net/wallpapers/20/2/sky-falls-waterfall-wallpaper-waterfalls-landscape-207586.jpg');
+	background-image: url('images/newbkg.jpg');
 	background-repeat: no-repeat;
 	background-position: -200px -450px; 
 }
@@ -22,7 +23,7 @@ nav{
 	float: right;
 	color: white;
 	margin-right: 40px;
-	border: 1px solid;
+	border: 4px dotted;
 	font-weight: bold;
 	font-size: 28px;
 	font-family: arial; 
@@ -87,7 +88,8 @@ form input {
 	width:300px;
 }
 form button {
-height: 35px;
+
+height: 47px;
 font-family: arial;
 color: white;
 padding: 5px 20px;
@@ -96,83 +98,78 @@ font-size: 1.5em;
 border:none;
 background-color: #E60000;
 }
-
+button:hover {
+color: blue;
+}
 main {
 	height: 500px;
+	background-color: #00B8E6;
 	text-align: center;
-
+	margin-bottom: -20px;
+	margin-top: -22px;
 
 }
 .content-title {
 color: #565a5c;
-
 font-family:arial;
 
+
+}
+.content-title h1 {
+text-decoration: underline;
+text-shadow: 4px 4px 8px white;
+color: white;
+background-color: #00B8E6;
 
 }
 footer {
  height: 150px;
  border: 1px solid;
  background: black;
- 
+ margin-bottom: -20px;
 }
 
 footer p img {
-padding-top: 50px;
-padding-bottom: 0px;
+border:3px solid orange;
 float: right;
+margin: auto;
 
 }
-
-
-	
-</style>
+	</style>
 </head>
 <body>
+<header><img src="images/zoro1.jpg" />
+<nav>
+<ul>
+	<li><a href="anime.html">Favorite Links</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="tel:9493027401"><button>Contact Me</button></a></li>
+</ul>
+</nav>
 
-	<header>
-		<img src="images/playstation.jpeg"/>
-		<nav>
-			<ul>
-				<li><a href="home.html">Anime Links</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="tel:9493027401"><button>Contact Me</button></a></li>
-			</ul>
-		</nav>
-		<div class="banner-title">
-			<h1>
-			My First Website.
-			</h1>
-			<p>
-				Learning how to programmer is fun.  
-			</p>
-		</div>
-	</header>
-	<div class="sign-up">
-		<form> 
-			<input type="text"><button>Sign Up</button>
-		</form>
+<div class="banner-title">
+<h1>My First Website.</h1>
 
-	</div>
-	<main>
-		<div class="content-title"
-		<h1>These are my fav companies.</h1>
-			<img src="images/raiders1.png" alt="raiders"/>
-			<img src="images/playstation.jpeg" alt="ps1"/>
-			<img src="images/hotdog.png" alt="hotdog"/>
-	</main>
-	<footer>
-			<p>
- <a href="https://www.facebook.com/mike.kidushim">
-<img border="0" height= "75" alt="Facebook" src="images/fb2.png" >
-</a>
-<a href= "https://www.linkedin.com/in/mkidushim">
-	<img src= "images/linkedin2.jpeg" alt="Linkedin" height="75" border="0">
-</a>
-<a href="mailto:mkidushim@gmail.com">
-<img src="images/gmail1.jpeg" alt="gmail" height="75" border="0">
-</a> 
-</p>
-	</footer>
+<p>Learning how to build website's is fun.</p>
+</div>
+</header>
+
+<div class="sign-up">
+<form><input type="text"/><button>Sign Up</button></form>
+</div>
+<main>
+<div class="content-title"> 
+<h1>These are some of my favorite logos and companies:</h1> <img alt="raiders" src="images/raiders1.png" /> <img alt="ps1" src="images/playstation.jpeg" /> <img alt="hotdog" src="images/hotdog.PNG" /></div>
+</main>
+
+<p></p>
+
+<footer>
+<p><a href="https://www.facebook.com/mike.kidushim"><img alt="Facebook" border="0" height="75" src="images/fb2.png" /> </a></p>
+<p> <a href="https://www.linkedin.com/in/mkidushim"> <img alt="Linkedin" border="0" height="75" src="images/linkedin2.jpeg" /> </a></p>
+ <p><a href="mailto:mkidushim@gmail.com"> <img alt="gmail" border="0" height="75" src="images/gmail1.jpeg" /> </a></p>
+</footer>
+
+<p></p>
 </body>
 </html>
